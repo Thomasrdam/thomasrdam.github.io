@@ -132,7 +132,11 @@ hr {
   text-align: center;
 }
 
-
+.row{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
 
 .menu {
   position: fixed;
