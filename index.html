@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio - Thomas van Straten</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Portfolio Thomas van straten" name="keywords">
+    
+
+    <link href="img/favicon.png" rel="icon">
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,300,700|EB+Garamond" rel="stylesheet">
+
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
+
+
+</head>
+
+<body data-spy="scroll" data-offset="0" data-target="#theMenu">
+
+<nav class="menu" id="theMenu">
+    <div class="menu-wrap">
+        <h1 class="logo"><a href="index.html#home">Thomas menu</a></h1>
+        <i class="fa fa-times-circle menu-close"></i>
+        <a href="#home" class="smoothscroll">Home</a>
+        <a href="#about" class="smoothscroll">Over mij</a>
+        <a href="#portfolio" class="smoothscroll">Foto's</a>
+        <a href="#contact" class="smoothscroll">Contact</a>
+        <a href="https://www.facebook.com/ThomasvanStratenn"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+        <a href="index.html"><i class="fa fa-dribbble"></i></a>
+        <a href="#contact"><i class="fa fa-envelope"></i></a>
+    </div>
+
+
+    <div id="menuToggle"><i class="fa fa-bars"></i></div>
+</nav>
+
+
+<section id="home" name="home"></section>
+<div id="headerwrap">
+    <div class="container">
+        <br>
+        <div class="row">
+            <img src="img/tgrijs.png" height="400px" alt="Foto van mijn logo">
+            <br>
+            <h1>Thomas van Straten</h1>
+            <br>
+            <br>
+            <div class="col-lg-6 col-lg-offset-3">
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<section id="about" overmij="about"></section>
+<div id="f">
+    <div class="container">
+        <div class="row">
+            <h3>OVER MIJ</h3>
+            <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i
+                    class="icon icon-circle"></i></p>
+
+            <div class="col-lg-6 col-lg-offset-3">
+                <p>Ik ben een gemotiveerde mbo leerling met de ambitie om groot designer te worden.</p>
+                <p>Mijn hobby is dan natuurlijk ook om websites te bouwen al deze.</p>
+                <p>Ook ben ik graag aan het werk, dus voor meer informatie klik op de knop of stuur mij een mail.</p>
+                <p><a download href="cvthomas.pdf">
+                    <button type="button" class="btn btn-warning">Download Curriculum Vitae</button>
+                </a></p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<section id="portfolio" name="portfolio"></section>
+<div id="f">
+    <div class="container">
+        <div class="row centered">
+            <h3>WAT FOTO'S</h3>
+            <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i
+                    class="icon icon-circle"></i></p>
+
+            <div class="col-lg-6 col-lg-offset-3">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="item active centered">
+                            <img class="img-responsive" src="img/c1.png" alt="">
+                        </div>
+                        <div class="item centered">
+                            <img class="img-responsive" src="img/c2.png" alt="">
+                        </div>
+                        <div class="item centered">
+                            <img class="img-responsive" src="img/c3.png" alt="">
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<section id="contact" name="contact"></section>
+<div id="f">
+    <div class="container">
+        <div class="row">
+            <h3>VIND MIJ</h3>
+            <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i
+                    class="icon icon-circle"></i></p>
+
+            <div class="col-lg-6 col-lg-offset-3">
+                <p>Boezemsingel 17b 3034EB<br/>Rotterdam, Nederland<br/>+31 0681651083</p>
+                <p>Thomasvanstraten@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST">
+
+                    <div class="form-group">
+                        <label for="contact-name">Jou naam</label>
+                        <input type="name" name="name" class="form-control" id="contact-name" placeholder="Jou naam"
+                               data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                        <div class="validate"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-email">Jou Email</label>
+                        <input type="email" name="email" class="form-control" id="contact-email" placeholder="Jou Email"
+                               data-rule="email" data-msg="Please enter a valid email">
+                        <div class="validate"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-subject">Onderwerp</label>
+                        <input type="text" name="subject" class="form-control" id="contact-subject"
+                               placeholder="Onderwerp" data-rule="minlen:4"
+                               data-msg="Please enter at least 8 chars of subject">
+                        <div class="validate"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contact-message">Jou Bericht</label>
+                        <textarea class="form-control" name="message" id="contact-message" placeholder="Jou Bericht"
+                                  rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
+                        <div class="validate"></div>
+                    </div>
+
+                    <div class="loading"><img src="lib/php-mail-form/loading.gif"></div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Uw bericht is verzonden. Bedankt!</div>
+
+                    <div class="form-send">
+                        <button type="submit" class="btn btn-large">Verzend Bericht</button>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="copyrights">
+    <div class="container">
+        <p>
+            &copy; Copyrights <strong>Thomas van Straten</strong>. All Rights Reserved
+        </p>
+    </div>
+</div>
+
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="lib/php-mail-form/validate.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
