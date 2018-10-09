@@ -1,0 +1,109 @@
+header{
+    font-size: 0.5cm;
+}
+h1 {
+    color: floralwhite;
+    text-align: center;
+    font-size: 1.2cm;
+}
+
+img {
+    border-radius: 6px;
+}
+
+h2 {
+    font-size: 1cm;
+}
+h3 {
+    font size: 1cm;
+}
+
+
+h2 {
+    font-size: 0.6cm;
+}
+
+p {
+    font-size: 0.5cm;
+}
+
+/* Style the header */
+.header {
+    background-image: url("banner.jpg");
+    padding: 15px;
+    text-align: right;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+body {
+    background-image: url("rotterdam1.jpg");
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33%;
+    padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+h3 {
+
+    background-color: lightgrey;
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: gray;
+}
+
