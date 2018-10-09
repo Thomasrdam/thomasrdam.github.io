@@ -23,5 +23,5 @@ jQuery(document).ready(function( $ ) {
 			$('#theMenu').toggleClass('menu-open');
 	  });
 
-
 });
+
