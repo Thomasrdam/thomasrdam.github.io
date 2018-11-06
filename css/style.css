@@ -384,3 +384,80 @@ hr {
 .credits {
   color: #999;
 }
+
+/* Hier is de css van de gallery */
+
+.galbody{
+  background-color: black;
+
+
+}
+
+.gallery {
+  padding: .7vw;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  display: -webkit-box;
+  display: flex;
+}
+
+.gallery div {
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  width: 300px;
+  margin: .5vw;
+}
+
+.gallery div img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 400px) {
+  gallery div {
+    margin: 1%;
+  }
+
+  gallery {
+    padding: 2%;
+  }
+
+}
+.gallery  img:hover {
+
+  transform: scale(1.1);
+}
+/* Style van de navibar */
+.topnav {
+  overflow: hidden;
+  background-color: #1a1a1a;
+  border-radius: 20px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+/* Style van de knoppen */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+/* Kleur verandering met hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* hier stopt de css van gallery */
+
+
